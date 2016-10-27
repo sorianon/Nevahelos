@@ -1,5 +1,7 @@
 # Visual Studio 2015 user specific files
 .vs/
+#Testing Ignore files (pound means Comment)
+Test/*.*
 
 # Compiled Object files
 *.slo
