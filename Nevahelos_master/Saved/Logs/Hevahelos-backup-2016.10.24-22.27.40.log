@@ -1,0 +1,705 @@
+﻿Log file open, 10/24/16 21:44:42
+LogInit:Display: Running engine for game: Hevahelos
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1686284321) SRandInit(-1686284321).
+LogTaskGraph: Started task graph with 5 named threads and 10 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.105819
+LogPluginManager: Loaded Plugin Paper2D, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
+LogPluginManager: Loaded Plugin LightPropagationVolume, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
+LogPluginManager: Loaded Plugin BlankPlugin, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
+LogPluginManager: Loaded Plugin CodeLiteSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/CodeLiteSourceCodeAccess/CodeLiteSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin GitSourceControl, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/GitSourceControl/GitSourceControl.uplugin
+LogPluginManager: Loaded Plugin KDevelopSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/KDevelopSourceCodeAccess/KDevelopSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin NullSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/NullSourceCodeAccess/NullSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin OneSkyLocalizationService, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/OneSkyLocalizationService/OneSkyLocalizationService.uplugin
+LogPluginManager: Loaded Plugin PerforceSourceControl, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/PerforceSourceControl/PerforceSourceControl.uplugin
+LogPluginManager: Loaded Plugin SubversionSourceControl, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/SubversionSourceControl/SubversionSourceControl.uplugin
+LogPluginManager: Loaded Plugin UObjectPlugin, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/UObjectPlugin/UObjectPlugin.uplugin
+LogPluginManager: Loaded Plugin VisualStudioSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/VisualStudioSourceCodeAccess/VisualStudioSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin XCodeSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/XCodeSourceCodeAccess/XCodeSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin EpicSurvey, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Editor/EpicSurvey/EpicSurvey.uplugin
+LogPluginManager: Loaded Plugin MacGraphicsSwitching, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Editor/MacGraphicsSwitching/MacGraphicsSwitching.uplugin
+LogPluginManager: Loaded Plugin MobileLauncherProfileWizard, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Editor/MobileLauncherProfileWizard/MobileLauncherProfileWizard.uplugin
+LogPluginManager: Loaded Plugin PluginBrowser, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Editor/PluginBrowser/PluginBrowser.uplugin
+LogPluginManager: Loaded Plugin SpeedTreeImporter, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Editor/SpeedTreeImporter/SpeedTreeImporter.uplugin
+LogPluginManager: Loaded Plugin SuperSearchEditor, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Editor/SuperSearchEditor/SuperSearchEditor.uplugin
+LogPluginManager: Loaded Plugin AlembicImporter, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/AlembicImporter/AlembicImporter.uplugin
+LogPluginManager: Loaded Plugin BlueprintStats, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/BlueprintStats/BlueprintStats.uplugin
+LogPluginManager: Loaded Plugin CharacterAI, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/CharacterAI/CharacterAI.uplugin
+LogPluginManager: Loaded Plugin CodeEditor, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/CodeEditor/CodeEditor.uplugin
+LogPluginManager: Loaded Plugin CodeView, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/CodeView/CodeView.uplugin
+LogPluginManager: Loaded Plugin HTML5Networking, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/HTML5Networking/HTML5Networking.uplugin
+LogPluginManager: Loaded Plugin LiveEditor, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/LiveEditor/LiveEditor.uplugin
+LogPluginManager: Loaded Plugin OSVR, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/OSVR/OSVR.uplugin
+LogPluginManager: Loaded Plugin Phya, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/Phya/Phya.uplugin
+LogPluginManager: Loaded Plugin SignificanceManager, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/SignificanceManager/SignificanceManager.uplugin
+LogPluginManager: Loaded Plugin SimpleHMD, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/SimpleHMD/SimpleHMD.uplugin
+LogPluginManager: Loaded Plugin StereoPanorama, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/StereoPanorama/StereoPanorama.uplugin
+LogPluginManager: Loaded Plugin StructBox, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/StructBox/StructBox.uplugin
+LogPluginManager: Loaded Plugin Substance, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Marketplace/Substance/Substance.uplugin
+LogPluginManager: Loaded Plugin AndroidMedia, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Media/AndroidMedia/AndroidMedia.uplugin
+LogPluginManager: Loaded Plugin AvfMedia, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Media/AvfMedia/AvfMedia.uplugin
+LogPluginManager: Loaded Plugin MediaPlayerEditor, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Media/MediaPlayerEditor/MediaPlayerEditor.uplugin
+LogPluginManager: Loaded Plugin WmfMedia, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Media/WmfMedia/WmfMedia.uplugin
+LogPluginManager: Loaded Plugin MessagingDebugger, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Messaging/MessagingDebugger/MessagingDebugger.uplugin
+LogPluginManager: Loaded Plugin TcpMessaging, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Messaging/TcpMessaging/TcpMessaging.uplugin
+LogPluginManager: Loaded Plugin UdpMessaging, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Messaging/UdpMessaging/UdpMessaging.uplugin
+LogPluginManager: Loaded Plugin LevelSequenceEditor, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/MovieScene/LevelSequenceEditor/LevelSequenceEditor.uplugin
+LogPluginManager: Loaded Plugin MatineeToLevelSequence, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/MovieScene/MatineeToLevelSequence/MatineeToLevelSequence.uplugin
+LogPluginManager: Loaded Plugin NetcodeUnitTest, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/NetcodeUnitTest.uplugin
+LogPluginManager: Loaded Plugin NUTUnrealEngine4, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/NUTUnrealEngine4.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGooglePlay, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/Android/OnlineSubsystemGooglePlay/OnlineSubsystemGooglePlay.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemIOS, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/IOS/OnlineSubsystemIOS/OnlineSubsystemIOS.uplugin
+LogPluginManager: Loaded Plugin OnlineFramework, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineFramework/OnlineFramework.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystem, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystem/OnlineSubsystem.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemAmazon, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemAmazon/OnlineSubsystemAmazon.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemFacebook, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemFacebook/OnlineSubsystemFacebook.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemNull, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemNull/OnlineSubsystemNull.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemOculus, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemOculus/OnlineSubsystemOculus.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemSteam, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemSteam/OnlineSubsystemSteam.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemUtils, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemUtils/OnlineSubsystemUtils.uplugin
+LogPluginManager: Loaded Plugin IOSTapJoy, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Advertising/IOSTapJoy/IOSTapJoy.uplugin
+LogPluginManager: Loaded Plugin AnalyticsBlueprintLibrary, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/AnalyticsBlueprintLibrary/AnalyticsBlueprintLibrary.uplugin
+LogPluginManager: Loaded Plugin AnalyticsMulticast, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/AnalyticsMulticast/AnalyticsMulticast.uplugin
+LogPluginManager: Loaded Plugin Apsalar, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/Apsalar/Apsalar.uplugin
+LogPluginManager: Loaded Plugin FileLogging, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/FileLogging/FileLogging.uplugin
+LogPluginManager: Loaded Plugin Flurry, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/Flurry/Flurry.uplugin
+LogPluginManager: Loaded Plugin AndroidDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/AndroidDeviceProfileSelector/AndroidDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin AndroidMoviePlayer, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/AndroidMoviePlayer/AndroidMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin AppleMoviePlayer, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/AppleMoviePlayer/AppleMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ArchVisCharacter, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/ArchVisCharacter/ArchVisCharacter.uplugin
+LogPluginManager: Loaded Plugin CableComponent, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/CableComponent/CableComponent.uplugin
+LogPluginManager: Loaded Plugin CustomMeshComponent, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/CustomMeshComponent/CustomMeshComponent.uplugin
+LogPluginManager: Loaded Plugin ExampleDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/ExampleDeviceProfileSelector/ExampleDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin GearVR, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/GearVR/GearVR.uplugin
+LogPluginManager: Loaded Plugin GoogleVRController, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/GoogleVR/GoogleVRController/GoogleVRController.uplugin
+LogPluginManager: Loaded Plugin GoogleVRHMD, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/GoogleVR/GoogleVRHMD/GoogleVRHMD.uplugin
+LogPluginManager: Loaded Plugin IOSDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/IOSDeviceProfileSelector/IOSDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LeapMotion, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/LeapMotion/LeapMotion.uplugin
+LogPluginManager: Loaded Plugin LinuxDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/LinuxDeviceProfileSelector/LinuxDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LiveEditorListenServer, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/LiveEditorListenServer/LiveEditorListenServer.uplugin
+LogPluginManager: Loaded Plugin OculusAudio, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/OculusAudio/OculusAudio.uplugin
+LogPluginManager: Loaded Plugin OculusInput, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/OculusInput/OculusInput.uplugin
+LogPluginManager: Loaded Plugin OculusLibrary, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/OculusLibrary/OculusLibrary.uplugin
+LogPluginManager: Loaded Plugin OculusRift, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/OculusRift/OculusRift.uplugin
+LogPluginManager: Loaded Plugin Oodle, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/PacketHandlers/CompressionComponents/Oodle/Oodle.uplugin
+LogPluginManager: Loaded Plugin ProceduralMeshComponent, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/ProceduralMeshComponent/ProceduralMeshComponent.uplugin
+LogPluginManager: Loaded Plugin SoundMod, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/SoundMod/SoundMod.uplugin
+LogPluginManager: Loaded Plugin SoundVisualizations, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/SoundVisualizations/SoundVisualizations.uplugin
+LogPluginManager: Loaded Plugin SteamController, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Steam/SteamController/SteamController.uplugin
+LogPluginManager: Loaded Plugin SteamVR, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Steam/SteamVR/SteamVR.uplugin
+LogPluginManager: Loaded Plugin WebBrowserWidget, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/WebBrowserWidget/WebBrowserWidget.uplugin
+LogPluginManager: Loaded Plugin WindowsDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/WindowsDeviceProfileSelector/WindowsDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin WindowsMoviePlayer, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/WindowsMoviePlayer/WindowsMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ScriptPlugin, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/ScriptPlugin/ScriptPlugin.uplugin
+LogPluginManager: Loaded Plugin SlateRemote, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Slate/SlateRemote/SlateRemote.uplugin
+LogInit: Build: ++UE4+Release-4.13-CL-3142249
+LogInit: Engine Version: 4.13.1-3142249+++UE4+Release-4.13
+LogInit: Compatible Engine Version: 4.13.0-3106830+++UE4+Release-4.13
+LogInit: Net CL: 3142249
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 5
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 6
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 12
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 4
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 0
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Sep 28 2016 02:12:12
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.13
+LogInit: Command line: -EpicPortal  -HTTP=WinInet
+LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.13/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.10.25-04.44.42:928][  0]LogInit: Selected Device Profile: [Windows]
+[2016.10.25-04.44.42:928][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.10.25-04.44.42:938][  0]LogInit: Computer: COMPUTER-PC
+[2016.10.25-04.44.42:938][  0]LogInit: User: Computer
+[2016.10.25-04.44.42:938][  0]LogInit: CPU Page size=65536, Cores=6
+[2016.10.25-04.44.42:938][  0]LogInit: High frequency timer resolution =3.517710 MHz
+[2016.10.25-04.44.42:939][  0]LogMemory: Memory total: Physical=47.9GB (48GB approx)
+[2016.10.25-04.44.42:939][  0]LogMemory: Platform Memory Stats for Windows
+[2016.10.25-04.44.42:939][  0]LogMemory: Process Physical Memory: 258.14 MB used, 258.14 MB peak
+[2016.10.25-04.44.42:939][  0]LogMemory: Process Virtual Memory: 261.45 MB used, 261.45 MB peak
+[2016.10.25-04.44.42:939][  0]LogMemory: Physical Memory: 12542.82 MB used, 49090.87 MB total
+[2016.10.25-04.44.42:939][  0]LogMemory: Virtual Memory: 624.34 MB used, 134217728.00 MB total
+[2016.10.25-04.44.42:975][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.10.25-04.44.43:656][  0]LogD3D11RHI: D3D11 adapters:
+[2016.10.25-04.44.44:259][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 980' (Feature Level 11_0)
+[2016.10.25-04.44.44:259][  0]LogD3D11RHI:       4060/0/24545 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2016.10.25-04.44.44:261][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2016.10.25-04.44.44:261][  0]LogD3D11RHI:       0/0/24545 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2016.10.25-04.44.44:261][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.10.25-04.44.44:317][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.10.25-04.44.44:317][  0]LogD3D11RHI:     GPU DeviceId: 0x13c0 (for the marketing name, search the web for "GPU Device Id")
+[2016.10.25-04.44.44:317][  0]LogWindows: EnumDisplayDevices:
+[2016.10.25-04.44.44:317][  0]LogWindows:    0. 'NVIDIA GeForce GTX 980' (P:1 D:1)
+[2016.10.25-04.44.44:318][  0]LogWindows:    1. 'NVIDIA GeForce GTX 980' (P:0 D:0)
+[2016.10.25-04.44.44:318][  0]LogWindows:    2. 'NVIDIA GeForce GTX 980' (P:0 D:0)
+[2016.10.25-04.44.44:318][  0]LogWindows:    3. 'NVIDIA GeForce GTX 980' (P:0 D:0)
+[2016.10.25-04.44.44:318][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2016.10.25-04.44.44:318][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 980
+[2016.10.25-04.44.44:318][  0]LogD3D11RHI:   Driver Version: 373.06 (internal:21.21.13.7306, unified:373.06)
+[2016.10.25-04.44.44:318][  0]LogD3D11RHI:      Driver Date: 10-1-2016
+[2016.10.25-04.44.44:318][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.10.25-04.44.44:884][  0]LogD3D11RHI: Async texture creation enabled
+[2016.10.25-04.44.44:928][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2016.10.25-04.44.44:929][  0]LogShaderCompilers: Guid format shader working directory is 25 characters bigger than the processId version (E:/Hevahelos/Hevahelos/Intermediate/Shaders/WorkingDirectory/920584/).
+[2016.10.25-04.44.44:929][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Computer/AppData/Local/Temp/UnrealShaderWorkingDir/ACEF5BA844F814413D65C6BBF085E7F7/'.
+[2016.10.25-04.44.44:929][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.10.25-04.44.45:930][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.10.25-04.44.45:939][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.10.25-04.44.45:949][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.10.25-04.44.45:957][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.10.25-04.44.45:969][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.10.25-04.44.45:977][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.10.25-04.44.45:983][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.10.25-04.44.45:990][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.10.25-04.44.45:997][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.10.25-04.44.46:004][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.10.25-04.44.46:010][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.10.25-04.44.46:024][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.10.25-04.44.46:024][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.10.25-04.44.46:025][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.10.25-04.44.46:046][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.10.25-04.44.46:052][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.10.25-04.44.46:058][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2016.10.25-04.44.46:065][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.10.25-04.44.46:071][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.10.25-04.44.46:078][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.10.25-04.44.46:078][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.10.25-04.44.46:167][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.10.25-04.44.46:237][  0]LogDerivedDataCache: Loaded boot cache 0.07s 65MB C:/Users/Computer/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc.
+[2016.10.25-04.44.46:237][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Computer/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc
+[2016.10.25-04.44.46:237][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/Hevahelos/Hevahelos/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.10.25-04.44.46:237][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.10.25-04.44.46:237][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/Hevahelos/Hevahelos/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.10.25-04.44.46:237][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.10.25-04.44.46:253][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.10.25-04.44.46:265][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Computer/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.10.25-04.44.46:499][  0]LogInit: Selected Device Profile: [Windows]
+[2016.10.25-04.44.46:502][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.10.25-04.44.46:595][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.10.25-04.44.46:595][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.10.25-04.44.46:595][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.10.25-04.44.46:666][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2016.10.25-04.44.46:957][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3106830, ProjectName: hevahelos, ProjectVersion: , EngineNetworkVersion: 1, GameNetworkVersion: 0, NetworkChecksum: 1335855834
+[2016.10.25-04.44.46:998][  0]LogAssetRegistry: FAssetRegistry took 0.0224 seconds to start up
+[2016.10.25-04.44.47:020][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.019112 seconds
+[2016.10.25-04.44.47:025][  0]LogUObjectArray: 29778 objects as part of root set at end of initial load.
+[2016.10.25-04.44.47:025][  0]LogUObjectAllocator: 6125448 out of 0 bytes used by permanent object pool.
+[2016.10.25-04.44.47:025][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.10.25-04.44.47:033][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.10.25-04.44.47:261][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.10.25-04.44.47:261][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.10.25-04.44.47:921][  0]LogSubstanceCoreModule: Substance CPU Engine Loaded, Max Texture Size 2048
+[2016.10.25-04.44.47:933][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2016.10.25-04.44.47:956][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.10.25-04.44.48:501][  0]SourceControl: Info Source control is disabled
+[2016.10.25-04.44.48:577][  0]SourceControl: Info Source control is disabled
+[2016.10.25-04.44.48:588][  0]SourceControl: Info Source control is disabled
+[2016.10.25-04.44.48:599][  0]SourceControl: Info Source control is disabled
+[2016.10.25-04.44.48:943][  0]LogEngine: Initializing Engine...
+[2016.10.25-04.44.48:963][  0]LogHMD: Failed to initialize OpenVR with code 126
+[2016.10.25-04.44.49:100][  0]LogAIModule: Creating AISystem for world Untitled
+[2016.10.25-04.44.49:115][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.10.25-04.44.49:181][  0]LogInit: FAudioDevice initialized.
+[2016.10.25-04.44.49:217][  0]LogDerivedDataCache: Saved boot cache 0.04s 65MB C:/Users/Computer/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc.
+[2016.10.25-04.44.49:499][  0]LogInit: Texture streaming: Enabled
+[2016.10.25-04.44.49:583][  0]LogInit: Transaction tracking system initialized
+[2016.10.25-04.44.49:613][  0]BlueprintLog: New page: Editor Load
+[2016.10.25-04.44.49:752][  0]LocalizationService: Info Localization service is disabled
+[2016.10.25-04.44.49:840][  0]LogConsoleResponse:Display: 
+[2016.10.25-04.44.49:951][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2016.10.25-04.44.49:951][  0]LogCook:Display: Mobile HDR setting 1
+[2016.10.25-04.44.50:138][  0]LogFileCache: Scanning file cache for directory 'E:/Hevahelos/Hevahelos/Content/' took 0.02s
+[2016.10.25-04.44.50:138][  0]SourceControl: Info Source control is disabled
+[2016.10.25-04.44.50:138][  0]Cmd: MAP LOAD FILE="E:/Hevahelos/Hevahelos/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.10.25-04.44.50:138][  0]LightingResults: New page: Lighting Build
+[2016.10.25-04.44.50:141][  0]MapCheck: New page: Map Check
+[2016.10.25-04.44.50:141][  0]LightingResults: New page: Lighting Build
+[2016.10.25-04.44.50:333][  0]LogLinker:Warning: Can't find file '/Game/Environment/Textures/Ice/T_Cave_Ice_Tiling_D'
+[2016.10.25-04.44.50:333][  0]LogLinker:Warning: Can't find file for asset '/Game/Environment/Textures/Ice/T_Cave_Ice_Tiling_D' while loading E:/Hevahelos/Hevahelos/Content/Environment/Shaders/MaterialFunctions/MF_Cave_Snow.uasset.
+[2016.10.25-04.44.50:333][  0]LoadErrors:Error: Error /Game/Environment/Shaders/MaterialFunctions/MF_Cave_Snow : Can't find file for asset. /Game/Environment/Textures/Ice/T_Cave_Ice_Tiling_D
+[2016.10.25-04.44.50:333][  0]LogLinker:Warning: Can't find file '/Game/Environment/Textures/T_Glacier_Cap_N'
+[2016.10.25-04.44.50:333][  0]LogLinker:Warning: Can't find file for asset '/Game/Environment/Textures/T_Glacier_Cap_N' while loading E:/Hevahelos/Hevahelos/Content/Environment/Shaders/MaterialFunctions/MF_Cave_Snow.uasset.
+[2016.10.25-04.44.50:333][  0]LoadErrors:Error: Error /Game/Environment/Shaders/MaterialFunctions/MF_Cave_Snow : Can't find file for asset. /Game/Environment/Textures/T_Glacier_Cap_N
+[2016.10.25-04.44.50:334][  0]LogLinker:Warning: Can't find file '/Game/Environment/Textures/Ice/T_Cave_Ice_Tiling_D'
+[2016.10.25-04.44.50:334][  0]LogLinker:Warning: Can't find file for asset '/Game/Environment/Textures/Ice/T_Cave_Ice_Tiling_D' while loading E:/Hevahelos/Hevahelos/Content/Environment/Shaders/MaterialFunctions/MF_Cave_Snow.uasset.
+[2016.10.25-04.44.50:334][  0]LoadErrors:Error: Error /Game/Environment/Shaders/MaterialFunctions/MF_Cave_Snow : Can't find file for asset. /Game/Environment/Textures/Ice/T_Cave_Ice_Tiling_D
+[2016.10.25-04.44.50:334][  0]LogLinker:Warning: Can't find file '/Game/Environment/Textures/T_Glacier_Cap_N'
+[2016.10.25-04.44.50:334][  0]LogLinker:Warning: Can't find file for asset '/Game/Environment/Textures/T_Glacier_Cap_N' while loading E:/Hevahelos/Hevahelos/Content/Environment/Shaders/MaterialFunctions/MF_Cave_Snow.uasset.
+[2016.10.25-04.44.50:334][  0]LoadErrors:Error: Error /Game/Environment/Shaders/MaterialFunctions/MF_Cave_Snow : Can't find file for asset. /Game/Environment/Textures/T_Glacier_Cap_N
+[2016.10.25-04.44.50:341][  0]LogLinker:Warning: Can't find file '/Game/Environment/MaterialFunctions/MF_SnowMask'
+[2016.10.25-04.44.50:341][  0]LogLinker:Warning: Can't find file for asset '/Game/Environment/MaterialFunctions/MF_SnowMask' while loading E:/Hevahelos/Hevahelos/Content/Environment/Shaders/MaterialFunctions/MF_SnowBlend.uasset.
+[2016.10.25-04.44.50:341][  0]LoadErrors:Error: Error /Game/Environment/Shaders/MaterialFunctions/MF_SnowBlend : Can't find file for asset. /Game/Environment/MaterialFunctions/MF_SnowMask
+[2016.10.25-04.44.50:341][  0]LogLinker:Warning: Can't find file '/Game/Environment/MaterialFunctions/MF_SnowMask'
+[2016.10.25-04.44.50:341][  0]LogLinker:Warning: Can't find file for asset '/Game/Environment/MaterialFunctions/MF_SnowMask' while loading E:/Hevahelos/Hevahelos/Content/Environment/Shaders/MaterialFunctions/MF_SnowBlend.uasset.
+[2016.10.25-04.44.50:341][  0]LoadErrors:Error: Error /Game/Environment/Shaders/MaterialFunctions/MF_SnowBlend : Can't find file for asset. /Game/Environment/MaterialFunctions/MF_SnowMask
+[2016.10.25-04.44.50:341][  0]LogLinker:Warning: Can't find file '/Game/Environment/Textures/Ice/T_Cave_Ice_Noise_D'
+[2016.10.25-04.44.50:342][  0]LogLinker:Warning: Can't find file for asset '/Game/Environment/Textures/Ice/T_Cave_Ice_Noise_D' while loading E:/Hevahelos/Hevahelos/Content/Environment/Shaders/MaterialFunctions/MF_SnowBlend.uasset.
+[2016.10.25-04.44.50:342][  0]LoadErrors:Error: Error /Game/Environment/Shaders/MaterialFunctions/MF_SnowBlend : Can't find file for asset. /Game/Environment/Textures/Ice/T_Cave_Ice_Noise_D
+[2016.10.25-04.44.50:342][  0]LogLinker:Warning: Can't find file '/Game/Environment/Textures/Rock/T_CaveRock_Detail_N'
+[2016.10.25-04.44.50:342][  0]LogLinker:Warning: Can't find file for asset '/Game/Environment/Textures/Rock/T_CaveRock_Detail_N' while loading E:/Hevahelos/Hevahelos/Content/Environment/Shaders/MaterialFunctions/MF_SnowBlend.uasset.
+[2016.10.25-04.44.50:342][  0]LoadErrors:Error: Error /Game/Environment/Shaders/MaterialFunctions/MF_SnowBlend : Can't find file for asset. /Game/Environment/Textures/Rock/T_CaveRock_Detail_N
+[2016.10.25-04.44.50:342][  0]LogLinker:Warning: Can't find file '/Game/Environment/Textures/Ice/T_Cave_Ice_Noise_D'
+[2016.10.25-04.44.50:342][  0]LogLinker:Warning: Can't find file for asset '/Game/Environment/Textures/Ice/T_Cave_Ice_Noise_D' while loading E:/Hevahelos/Hevahelos/Content/Environment/Shaders/MaterialFunctions/MF_SnowBlend.uasset.
+[2016.10.25-04.44.50:342][  0]LoadErrors:Error: Error /Game/Environment/Shaders/MaterialFunctions/MF_SnowBlend : Can't find file for asset. /Game/Environment/Textures/Ice/T_Cave_Ice_Noise_D
+[2016.10.25-04.44.50:342][  0]LogLinker:Warning: Can't find file '/Game/Environment/Textures/Rock/T_CaveRock_Detail_N'
+[2016.10.25-04.44.50:342][  0]LogLinker:Warning: Can't find file for asset '/Game/Environment/Textures/Rock/T_CaveRock_Detail_N' while loading E:/Hevahelos/Hevahelos/Content/Environment/Shaders/MaterialFunctions/MF_SnowBlend.uasset.
+[2016.10.25-04.44.50:342][  0]LoadErrors:Error: Error /Game/Environment/Shaders/MaterialFunctions/MF_SnowBlend : Can't find file for asset. /Game/Environment/Textures/Rock/T_CaveRock_Detail_N
+[2016.10.25-04.44.50:351][  0]LogLinker:Warning: Can't find file '/Game/Environment/Textures/Noise/T_Cave_Noise_14'
+[2016.10.25-04.44.50:351][  0]LogLinker:Warning: Can't find file for asset '/Game/Environment/Textures/Noise/T_Cave_Noise_14' while loading E:/Hevahelos/Hevahelos/Content/Environment/Shaders/MaterialFunctions/MF_Wetness.uasset.
+[2016.10.25-04.44.50:352][  0]LoadErrors:Error: Error /Game/Environment/Shaders/MaterialFunctions/MF_Wetness : Can't find file for asset. /Game/Environment/Textures/Noise/T_Cave_Noise_14
+[2016.10.25-04.44.50:352][  0]LogLinker:Warning: Can't find file '/Game/Environment/Textures/Noise/T_Cave_Noise_14'
+[2016.10.25-04.44.50:352][  0]LogLinker:Warning: Can't find file for asset '/Game/Environment/Textures/Noise/T_Cave_Noise_14' while loading E:/Hevahelos/Hevahelos/Content/Environment/Shaders/MaterialFunctions/MF_Wetness.uasset.
+[2016.10.25-04.44.50:352][  0]LoadErrors:Error: Error /Game/Environment/Shaders/MaterialFunctions/MF_Wetness : Can't find file for asset. /Game/Environment/Textures/Noise/T_Cave_Noise_14
+[2016.10.25-04.44.50:410][  0]LogLinker:Warning: Can't find file '/Game/Effects/Materials/Fire/M_Fire_SubUV_11X11_Noise'
+[2016.10.25-04.44.50:410][  0]LogLinker:Warning: Can't find file for asset '/Game/Effects/Materials/Fire/M_Fire_SubUV_11X11_Noise' while loading E:/Hevahelos/Hevahelos/Content/Environment/Shaders/Effects/Particles/Fire/P_TorchFire.uasset.
+[2016.10.25-04.44.50:410][  0]LoadErrors:Error: Error /Game/Environment/Shaders/Effects/Particles/Fire/P_TorchFire : Can't find file for asset. /Game/Effects/Materials/Fire/M_Fire_SubUV_11X11_Noise
+[2016.10.25-04.44.50:410][  0]LogLinker:Warning: Can't find file '/Game/Effects/Materials/Fire/M_HeatDistort'
+[2016.10.25-04.44.50:410][  0]LogLinker:Warning: Can't find file for asset '/Game/Effects/Materials/Fire/M_HeatDistort' while loading E:/Hevahelos/Hevahelos/Content/Environment/Shaders/Effects/Particles/Fire/P_TorchFire.uasset.
+[2016.10.25-04.44.50:410][  0]LoadErrors:Error: Error /Game/Environment/Shaders/Effects/Particles/Fire/P_TorchFire : Can't find file for asset. /Game/Effects/Materials/Fire/M_HeatDistort
+[2016.10.25-04.44.50:410][  0]LogLinker:Warning: Can't find file '/Game/Effects/Materials/Flares/M_FlareRound'
+[2016.10.25-04.44.50:410][  0]LogLinker:Warning: Can't find file for asset '/Game/Effects/Materials/Flares/M_FlareRound' while loading E:/Hevahelos/Hevahelos/Content/Environment/Shaders/Effects/Particles/Fire/P_TorchFire.uasset.
+[2016.10.25-04.44.50:411][  0]LoadErrors:Error: Error /Game/Environment/Shaders/Effects/Particles/Fire/P_TorchFire : Can't find file for asset. /Game/Effects/Materials/Flares/M_FlareRound
+[2016.10.25-04.44.50:411][  0]LogLinker:Warning: Can't find file '/Game/Effects/Materials/Sparks/M_Spark_VelocityLerp'
+[2016.10.25-04.44.50:411][  0]LogLinker:Warning: Can't find file for asset '/Game/Effects/Materials/Sparks/M_Spark_VelocityLerp' while loading E:/Hevahelos/Hevahelos/Content/Environment/Shaders/Effects/Particles/Fire/P_TorchFire.uasset.
+[2016.10.25-04.44.50:411][  0]LoadErrors:Error: Error /Game/Environment/Shaders/Effects/Particles/Fire/P_TorchFire : Can't find file for asset. /Game/Effects/Materials/Sparks/M_Spark_VelocityLerp
+[2016.10.25-04.44.50:411][  0]LogLinker:Warning: Can't find file '/Game/Effects/Materials/Fire/M_Fire_SubUV_11X11_Noise'
+[2016.10.25-04.44.50:411][  0]LogLinker:Warning: Can't find file for asset '/Game/Effects/Materials/Fire/M_Fire_SubUV_11X11_Noise' while loading E:/Hevahelos/Hevahelos/Content/Environment/Shaders/Effects/Particles/Fire/P_TorchFire.uasset.
+[2016.10.25-04.44.50:411][  0]LoadErrors:Error: Error /Game/Environment/Shaders/Effects/Particles/Fire/P_TorchFire : Can't find file for asset. /Game/Effects/Materials/Fire/M_Fire_SubUV_11X11_Noise
+[2016.10.25-04.44.50:411][  0]LogLinker:Warning: Can't find file '/Game/Effects/Materials/Fire/M_HeatDistort'
+[2016.10.25-04.44.50:411][  0]LogLinker:Warning: Can't find file for asset '/Game/Effects/Materials/Fire/M_HeatDistort' while loading E:/Hevahelos/Hevahelos/Content/Environment/Shaders/Effects/Particles/Fire/P_TorchFire.uasset.
+[2016.10.25-04.44.50:411][  0]LoadErrors:Error: Error /Game/Environment/Shaders/Effects/Particles/Fire/P_TorchFire : Can't find file for asset. /Game/Effects/Materials/Fire/M_HeatDistort
+[2016.10.25-04.44.50:411][  0]LogLinker:Warning: Can't find file '/Game/Effects/Materials/Flares/M_FlareRound'
+[2016.10.25-04.44.50:412][  0]LogLinker:Warning: Can't find file for asset '/Game/Effects/Materials/Flares/M_FlareRound' while loading E:/Hevahelos/Hevahelos/Content/Environment/Shaders/Effects/Particles/Fire/P_TorchFire.uasset.
+[2016.10.25-04.44.50:412][  0]LoadErrors:Error: Error /Game/Environment/Shaders/Effects/Particles/Fire/P_TorchFire : Can't find file for asset. /Game/Effects/Materials/Flares/M_FlareRound
+[2016.10.25-04.44.50:412][  0]LogLinker:Warning: Can't find file '/Game/Effects/Materials/Sparks/M_Spark_VelocityLerp'
+[2016.10.25-04.44.50:412][  0]LogLinker:Warning: Can't find file for asset '/Game/Effects/Materials/Sparks/M_Spark_VelocityLerp' while loading E:/Hevahelos/Hevahelos/Content/Environment/Shaders/Effects/Particles/Fire/P_TorchFire.uasset.
+[2016.10.25-04.44.50:412][  0]LoadErrors:Error: Error /Game/Environment/Shaders/Effects/Particles/Fire/P_TorchFire : Can't find file for asset. /Game/Effects/Materials/Sparks/M_Spark_VelocityLerp
+[2016.10.25-04.44.50:412][  0]LogLinker:Warning: Can't find file '/Game/Effects/VectorFields/VF_RandomNoise_01_90'
+[2016.10.25-04.44.50:412][  0]LogLinker:Warning: Can't find file for asset '/Game/Effects/VectorFields/VF_RandomNoise_01_90' while loading E:/Hevahelos/Hevahelos/Content/Environment/Shaders/Effects/Particles/Fire/P_TorchFire.uasset.
+[2016.10.25-04.44.50:412][  0]LoadErrors:Error: Error /Game/Environment/Shaders/Effects/Particles/Fire/P_TorchFire : Can't find file for asset. /Game/Effects/VectorFields/VF_RandomNoise_01_90
+[2016.10.25-04.44.50:412][  0]LogLinker:Warning: Can't find file '/Game/Effects/VectorFields/VF_RandomNoise_01_90'
+[2016.10.25-04.44.50:412][  0]LogLinker:Warning: Can't find file for asset '/Game/Effects/VectorFields/VF_RandomNoise_01_90' while loading E:/Hevahelos/Hevahelos/Content/Environment/Shaders/Effects/Particles/Fire/P_TorchFire.uasset.
+[2016.10.25-04.44.50:412][  0]LoadErrors:Error: Error /Game/Environment/Shaders/Effects/Particles/Fire/P_TorchFire : Can't find file for asset. /Game/Effects/VectorFields/VF_RandomNoise_01_90
+[2016.10.25-04.44.50:723][  0]LogLinker:Warning: Can't find file '/Game/Effects/Materials/Fire/M_Fire_SubUV_11X11_Noise'
+[2016.10.25-04.44.50:723][  0]LoadErrors: Info Failed to load /Game/Effects/Materials/Fire/M_Fire_SubUV_11X11_Noise.M_Fire_SubUV_11X11_Noise Referenced by ParticleModuleRequired_0
+[2016.10.25-04.44.50:723][  0]LogLinker:Warning: Can't find file for asset '/Game/Effects/Materials/Fire/M_Fire_SubUV_11X11_Noise' while loading NULL.
+[2016.10.25-04.44.50:723][  0]LoadErrors: Info Failed to load /Game/Effects/Materials/Fire/M_Fire_SubUV_11X11_Noise.M_Fire_SubUV_11X11_Noise Referenced by ParticleModuleRequired_0
+[2016.10.25-04.44.50:723][  0]LogLinker:Warning: Can't find file '/Game/Effects/Materials/Flares/M_FlareRound'
+[2016.10.25-04.44.50:723][  0]LoadErrors: Info Failed to load /Game/Effects/Materials/Flares/M_FlareRound.M_FlareRound Referenced by ParticleModuleRequired_12
+[2016.10.25-04.44.50:723][  0]LogLinker:Warning: Can't find file for asset '/Game/Effects/Materials/Flares/M_FlareRound' while loading NULL.
+[2016.10.25-04.44.50:723][  0]LoadErrors: Info Failed to load /Game/Effects/Materials/Flares/M_FlareRound.M_FlareRound Referenced by ParticleModuleRequired_12
+[2016.10.25-04.44.50:723][  0]LogLinker:Warning: Can't find file '/Game/Effects/Materials/Fire/M_Fire_SubUV_11X11_Noise'
+[2016.10.25-04.44.50:724][  0]LoadErrors: Info Failed to load /Game/Effects/Materials/Fire/M_Fire_SubUV_11X11_Noise.M_Fire_SubUV_11X11_Noise Referenced by ParticleModuleRequired_2
+[2016.10.25-04.44.50:724][  0]LogLinker:Warning: Can't find file for asset '/Game/Effects/Materials/Fire/M_Fire_SubUV_11X11_Noise' while loading NULL.
+[2016.10.25-04.44.50:724][  0]LoadErrors: Info Failed to load /Game/Effects/Materials/Fire/M_Fire_SubUV_11X11_Noise.M_Fire_SubUV_11X11_Noise Referenced by ParticleModuleRequired_2
+[2016.10.25-04.44.50:724][  0]LogLinker:Warning: Can't find file '/Game/Effects/Materials/Fire/M_Fire_SubUV_11X11_Noise'
+[2016.10.25-04.44.50:724][  0]LoadErrors: Info Failed to load /Game/Effects/Materials/Fire/M_Fire_SubUV_11X11_Noise.M_Fire_SubUV_11X11_Noise Referenced by ParticleModuleRequired_3
+[2016.10.25-04.44.50:724][  0]LogLinker:Warning: Can't find file for asset '/Game/Effects/Materials/Fire/M_Fire_SubUV_11X11_Noise' while loading NULL.
+[2016.10.25-04.44.50:724][  0]LoadErrors: Info Failed to load /Game/Effects/Materials/Fire/M_Fire_SubUV_11X11_Noise.M_Fire_SubUV_11X11_Noise Referenced by ParticleModuleRequired_3
+[2016.10.25-04.44.50:724][  0]LogLinker:Warning: Can't find file '/Game/Effects/Materials/Sparks/M_Spark_VelocityLerp'
+[2016.10.25-04.44.50:724][  0]LoadErrors: Info Failed to load /Game/Effects/Materials/Sparks/M_Spark_VelocityLerp.M_Spark_VelocityLerp Referenced by ParticleModuleRequired_4
+[2016.10.25-04.44.50:724][  0]LogLinker:Warning: Can't find file for asset '/Game/Effects/Materials/Sparks/M_Spark_VelocityLerp' while loading NULL.
+[2016.10.25-04.44.50:724][  0]LoadErrors: Info Failed to load /Game/Effects/Materials/Sparks/M_Spark_VelocityLerp.M_Spark_VelocityLerp Referenced by ParticleModuleRequired_4
+[2016.10.25-04.44.50:724][  0]LogLinker:Warning: Can't find file '/Game/Effects/Materials/Fire/M_HeatDistort'
+[2016.10.25-04.44.50:725][  0]LoadErrors: Info Failed to load /Game/Effects/Materials/Fire/M_HeatDistort.M_HeatDistort Referenced by ParticleModuleRequired_6
+[2016.10.25-04.44.50:725][  0]LogLinker:Warning: Can't find file for asset '/Game/Effects/Materials/Fire/M_HeatDistort' while loading NULL.
+[2016.10.25-04.44.50:725][  0]LoadErrors: Info Failed to load /Game/Effects/Materials/Fire/M_HeatDistort.M_HeatDistort Referenced by ParticleModuleRequired_6
+[2016.10.25-04.44.50:725][  0]LogLinker:Warning: Can't find file '/Game/Effects/VectorFields/VF_RandomNoise_01_90'
+[2016.10.25-04.44.50:725][  0]LoadErrors: Info Failed to load /Game/Effects/VectorFields/VF_RandomNoise_01_90.VF_RandomNoise_01_90 Referenced by ParticleModuleVectorFieldLocal_1
+[2016.10.25-04.44.50:725][  0]LogLinker:Warning: Can't find file for asset '/Game/Effects/VectorFields/VF_RandomNoise_01_90' while loading NULL.
+[2016.10.25-04.44.50:725][  0]LoadErrors: Info Failed to load /Game/Effects/VectorFields/VF_RandomNoise_01_90.VF_RandomNoise_01_90 Referenced by ParticleModuleVectorFieldLocal_1
+[2016.10.25-04.44.50:740][  0]LogLinker:Warning: Can't find file '/Game/Environment/Textures/Noise/T_Cave_Noise_14'
+[2016.10.25-04.44.50:740][  0]LoadErrors: Info Failed to load /Game/Environment/Textures/Noise/T_Cave_Noise_14.T_Cave_Noise_14 Referenced by MaterialExpressionTextureSample_16
+[2016.10.25-04.44.50:740][  0]LogLinker:Warning: Can't find file for asset '/Game/Environment/Textures/Noise/T_Cave_Noise_14' while loading NULL.
+[2016.10.25-04.44.50:740][  0]LoadErrors: Info Failed to load /Game/Environment/Textures/Noise/T_Cave_Noise_14.T_Cave_Noise_14 Referenced by MaterialExpressionTextureSample_16
+[2016.10.25-04.44.50:742][  0]LogLinker:Warning: Can't find file '/Game/Environment/MaterialFunctions/MF_SnowMask'
+[2016.10.25-04.44.50:743][  0]LoadErrors: Info Failed to load /Game/Environment/MaterialFunctions/MF_SnowMask.MF_SnowMask Referenced by MaterialExpressionMaterialFunctionCall_7
+[2016.10.25-04.44.50:743][  0]LogLinker:Warning: Can't find file for asset '/Game/Environment/MaterialFunctions/MF_SnowMask' while loading NULL.
+[2016.10.25-04.44.50:743][  0]LoadErrors: Info Failed to load /Game/Environment/MaterialFunctions/MF_SnowMask.MF_SnowMask Referenced by MaterialExpressionMaterialFunctionCall_7
+[2016.10.25-04.44.50:743][  0]LogLinker:Warning: Can't find file '/Game/Environment/Textures/Ice/T_Cave_Ice_Noise_D'
+[2016.10.25-04.44.50:743][  0]LoadErrors: Info Failed to load /Game/Environment/Textures/Ice/T_Cave_Ice_Noise_D.T_Cave_Ice_Noise_D Referenced by MaterialExpressionTextureObject_7
+[2016.10.25-04.44.50:743][  0]LogLinker:Warning: Can't find file for asset '/Game/Environment/Textures/Ice/T_Cave_Ice_Noise_D' while loading NULL.
+[2016.10.25-04.44.50:743][  0]LoadErrors: Info Failed to load /Game/Environment/Textures/Ice/T_Cave_Ice_Noise_D.T_Cave_Ice_Noise_D Referenced by MaterialExpressionTextureObject_7
+[2016.10.25-04.44.50:744][  0]LogLinker:Warning: Can't find file '/Game/Environment/Textures/Rock/T_CaveRock_Detail_N'
+[2016.10.25-04.44.50:744][  0]LoadErrors: Info Failed to load /Game/Environment/Textures/Rock/T_CaveRock_Detail_N.T_CaveRock_Detail_N Referenced by MaterialExpressionTextureSample_1
+[2016.10.25-04.44.50:744][  0]LogLinker:Warning: Can't find file for asset '/Game/Environment/Textures/Rock/T_CaveRock_Detail_N' while loading NULL.
+[2016.10.25-04.44.50:744][  0]LoadErrors: Info Failed to load /Game/Environment/Textures/Rock/T_CaveRock_Detail_N.T_CaveRock_Detail_N Referenced by MaterialExpressionTextureSample_1
+[2016.10.25-04.44.50:744][  0]LogLinker:Warning: Can't find file '/Game/Environment/Textures/Ice/T_Cave_Ice_Noise_D'
+[2016.10.25-04.44.50:744][  0]LoadErrors: Info Failed to load /Game/Environment/Textures/Ice/T_Cave_Ice_Noise_D.T_Cave_Ice_Noise_D Referenced by MaterialExpressionTextureSample_9
+[2016.10.25-04.44.50:744][  0]LogLinker:Warning: Can't find file for asset '/Game/Environment/Textures/Ice/T_Cave_Ice_Noise_D' while loading NULL.
+[2016.10.25-04.44.50:744][  0]LoadErrors: Info Failed to load /Game/Environment/Textures/Ice/T_Cave_Ice_Noise_D.T_Cave_Ice_Noise_D Referenced by MaterialExpressionTextureSample_9
+[2016.10.25-04.44.50:746][  0]LogLinker:Warning: Can't find file '/Game/Environment/Textures/Ice/T_Cave_Ice_Tiling_D'
+[2016.10.25-04.44.50:746][  0]LoadErrors: Info Failed to load /Game/Environment/Textures/Ice/T_Cave_Ice_Tiling_D.T_Cave_Ice_Tiling_D Referenced by MaterialExpressionTextureSample_0
+[2016.10.25-04.44.50:746][  0]LogLinker:Warning: Can't find file for asset '/Game/Environment/Textures/Ice/T_Cave_Ice_Tiling_D' while loading NULL.
+[2016.10.25-04.44.50:746][  0]LoadErrors: Info Failed to load /Game/Environment/Textures/Ice/T_Cave_Ice_Tiling_D.T_Cave_Ice_Tiling_D Referenced by MaterialExpressionTextureSample_0
+[2016.10.25-04.44.50:746][  0]LogLinker:Warning: Can't find file '/Game/Environment/Textures/T_Glacier_Cap_N'
+[2016.10.25-04.44.50:746][  0]LoadErrors: Info Failed to load /Game/Environment/Textures/T_Glacier_Cap_N.T_Glacier_Cap_N Referenced by MaterialExpressionTextureSample_2
+[2016.10.25-04.44.50:746][  0]LogLinker:Warning: Can't find file for asset '/Game/Environment/Textures/T_Glacier_Cap_N' while loading NULL.
+[2016.10.25-04.44.50:746][  0]LoadErrors: Info Failed to load /Game/Environment/Textures/T_Glacier_Cap_N.T_Glacier_Cap_N Referenced by MaterialExpressionTextureSample_2
+[2016.10.25-04.44.50:962][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.10.25-04.44.50:994][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.10.25-04.44.50:994][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.10.25-04.44.51:068][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 73.341ms to complete.
+[2016.10.25-04.44.51:068][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.930
+[2016.10.25-04.44.51:195][  0]LogCollectionManager: Loaded 0 collections in 0.002247 seconds
+[2016.10.25-04.44.51:236][  0]LogFileCache: Scanning file cache for directory 'E:/Hevahelos/Hevahelos/Saved/Collections/' took 0.01s
+[2016.10.25-04.44.51:236][  0]LogFileCache: Scanning file cache for directory 'E:/Hevahelos/Hevahelos/Content/Developers/Computer/Collections/' took 0.01s
+[2016.10.25-04.44.51:236][  0]LogFileCache: Scanning file cache for directory 'E:/Hevahelos/Hevahelos/Content/Collections/' took 0.01s
+[2016.10.25-04.44.51:236][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2016.10.25-04.44.51:246][  0]LogContentBrowser: Native class hierarchy populated in 0.0104 seconds. Added 2160 classes and 423 folders.
+[2016.10.25-04.44.51:251][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.10.25-04.44.51:251][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.10.25-04.44.51:253][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0014 seconds. Added 12 classes and 0 folders.
+[2016.10.25-04.44.51:259][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0013 seconds. Added 0 classes and 0 folders.
+[2016.10.25-04.44.51:305][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0014 seconds. Added 0 classes and 0 folders.
+[2016.10.25-04.44.51:312][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0014 seconds. Added 1 classes and 2 folders.
+[2016.10.25-04.44.51:415][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.10.25-04.44.51:421][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.10.25-04.44.51:454][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0014 seconds. Added 1 classes and 2 folders.
+[2016.10.25-04.44.51:454][  0]LogLoad: (Engine Initialization) Total time: 10.82 seconds
+[2016.10.25-04.44.51:454][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.12 seconds
+[2016.10.25-04.44.51:455][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2016.10.25-04.44.51:455][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2016.10.25-04.44.51:464][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.10.25-04.44.51:464][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.10.25-04.44.51:465][  0]LogOcInput: OculusInput pre-init called
+[2016.10.25-04.44.51:487][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.10.25-04.44.51:674][  1]LogRenderer: Reallocating scene render targets to support 1268x800 (Frame:2).
+[2016.10.25-04.44.52:013][  2]LogAssetRegistry: Asset discovery search completed in 5.0374 seconds
+[2016.10.25-04.44.52:013][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.10.25-04.44.52:013][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000044 seconds (updated 0 objects)
+[2016.10.25-04.45.34:939][ 15]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Environment/Terrain/T_FloatingIsland_normalmap" FILE="E:/Hevahelos/Hevahelos/Content/Environment/Terrain/T_FloatingIsland_normalmap.uasset" SILENT=true
+[2016.10.25-04.45.35:093][ 15]LogSavePackage: Save=152.43ms
+[2016.10.25-04.45.35:093][ 15]LogSavePackage: Moving 'E:/Hevahelos/Hevahelos/Saved/T_FloatingIsland_normalmapB1D9051C47A09CC50746B4900CDDAD48.tmp' to 'E:/Hevahelos/Hevahelos/Content/Environment/Terrain/T_FloatingIsland_normalmap.uasset'
+[2016.10.25-04.45.35:095][ 15]LogSavePackage:Display: Finished SavePackage E:/Hevahelos/Hevahelos/Content/Environment/Terrain/T_FloatingIsland_normalmap.uasset
+[2016.10.25-04.45.35:244][ 15]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Environment/FloatingIsland1" FILE="E:/Hevahelos/Hevahelos/Content/Environment/FloatingIsland1.uasset" SILENT=true
+[2016.10.25-04.45.35:266][ 15]LogSavePackage: Save=13.82ms
+[2016.10.25-04.45.35:266][ 15]LogSavePackage: Moving 'E:/Hevahelos/Hevahelos/Saved/FloatingIsland10BC1DEF749331DCCAA6430AF79B1646C.tmp' to 'E:/Hevahelos/Hevahelos/Content/Environment/FloatingIsland1.uasset'
+[2016.10.25-04.45.35:267][ 15]LogSavePackage:Display: Finished SavePackage E:/Hevahelos/Hevahelos/Content/Environment/FloatingIsland1.uasset
+[2016.10.25-04.45.35:283][ 15]LogMaterial: Missing cached shader map for material Material_0, compiling. 
+[2016.10.25-04.45.35:396][ 15]LogSavePackage: Save=17.58ms
+[2016.10.25-04.45.35:396][ 15]LogSavePackage: Moving 'E:/Hevahelos/Hevahelos/Saved/MF_Cave_DetailRock9088ADA545D26AA83A633DBEED48EB21.tmp' to 'E:/Hevahelos/Hevahelos/Content/Environment/Shaders/MaterialFunctions/MF_Cave_DetailRock.uasset'
+[2016.10.25-04.45.35:397][ 15]LogSavePackage:Display: Finished SavePackage E:/Hevahelos/Hevahelos/Content/Environment/Shaders/MaterialFunctions/MF_Cave_DetailRock.uasset
+[2016.10.25-04.45.35:420][ 15]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Environment/Shaders/Materials/Rock/M_Cave_Rock" FILE="E:/Hevahelos/Hevahelos/Content/Environment/Shaders/Materials/Rock/M_Cave_Rock.uasset" SILENT=true
+[2016.10.25-04.45.35:511][ 15]LogSavePackage: Save=62.31ms
+[2016.10.25-04.45.35:511][ 15]LogSavePackage: Moving 'E:/Hevahelos/Hevahelos/Saved/M_Cave_RockC286A15E4B826215797BD8A36034E08C.tmp' to 'E:/Hevahelos/Hevahelos/Content/Environment/Shaders/Materials/Rock/M_Cave_Rock.uasset'
+[2016.10.25-04.45.35:514][ 15]LogSavePackage:Display: Finished SavePackage E:/Hevahelos/Hevahelos/Content/Environment/Shaders/Materials/Rock/M_Cave_Rock.uasset
+[2016.10.25-04.45.35:574][ 15]LogSavePackage: Save=21.69ms
+[2016.10.25-04.45.35:574][ 15]LogSavePackage: Moving 'E:/Hevahelos/Hevahelos/Saved/M_Cave_Rock_Large_Inst1336E290409B451E2872858F2D439720.tmp' to 'E:/Hevahelos/Hevahelos/Content/Environment/Shaders/Materials/Rock/M_Cave_Rock_Large_Inst.uasset'
+[2016.10.25-04.45.35:575][ 15]LogSavePackage:Display: Finished SavePackage E:/Hevahelos/Hevahelos/Content/Environment/Shaders/Materials/Rock/M_Cave_Rock_Large_Inst.uasset
+[2016.10.25-04.45.52:385][688]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Environment/Terrain/Floating_Island1" FILE="E:/Hevahelos/Hevahelos/Content/Environment/Terrain/Floating_Island1.uasset" SILENT=true
+[2016.10.25-04.45.52:398][688]LogSavePackage: Save=11.79ms
+[2016.10.25-04.45.52:398][688]LogSavePackage: Moving 'E:/Hevahelos/Hevahelos/Saved/Floating_Island11F653E334DE8760CBC4CE8871EFA40AF.tmp' to 'E:/Hevahelos/Hevahelos/Content/Environment/Terrain/Floating_Island1.uasset'
+[2016.10.25-04.45.52:400][688]LogSavePackage:Display: Finished SavePackage E:/Hevahelos/Hevahelos/Content/Environment/Terrain/Floating_Island1.uasset
+[2016.10.25-04.45.52:403][688]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Environment/Floating_Island1" FILE="E:/Hevahelos/Hevahelos/Content/Environment/Floating_Island1.uasset" SILENT=true
+[2016.10.25-04.45.52:411][688]LogSavePackage: Save=1.99ms
+[2016.10.25-04.45.52:411][688]LogSavePackage: Moving 'E:/Hevahelos/Hevahelos/Saved/Floating_Island1A5804EF34391ABAE3E8248A84C152C46.tmp' to 'E:/Hevahelos/Hevahelos/Content/Environment/Floating_Island1.uasset'
+[2016.10.25-04.45.52:413][688]LogSavePackage:Display: Finished SavePackage E:/Hevahelos/Hevahelos/Content/Environment/Floating_Island1.uasset
+[2016.10.25-04.45.52:430][688]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Environment/Terrain/FloatingIsland1" FILE="E:/Hevahelos/Hevahelos/Content/Environment/Terrain/FloatingIsland1.uasset" SILENT=true
+[2016.10.25-04.45.52:445][688]LogSavePackage: Save=13.59ms
+[2016.10.25-04.45.52:445][688]LogSavePackage: Moving 'E:/Hevahelos/Hevahelos/Saved/FloatingIsland110B0248D405650A01AACC6B10633C960.tmp' to 'E:/Hevahelos/Hevahelos/Content/Environment/Terrain/FloatingIsland1.uasset'
+[2016.10.25-04.45.52:447][688]LogSavePackage:Display: Finished SavePackage E:/Hevahelos/Hevahelos/Content/Environment/Terrain/FloatingIsland1.uasset
+[2016.10.25-04.45.52:460][688]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Environment/Terrain/FloatingIsland_aomap" FILE="E:/Hevahelos/Hevahelos/Content/Environment/Terrain/FloatingIsland_aomap.uasset" SILENT=true
+[2016.10.25-04.45.52:529][688]LogSavePackage: Save=67.67ms
+[2016.10.25-04.45.52:529][688]LogSavePackage: Moving 'E:/Hevahelos/Hevahelos/Saved/FloatingIsland_aomap041DA4CA4291BF942EE44D93CFC6F091.tmp' to 'E:/Hevahelos/Hevahelos/Content/Environment/Terrain/FloatingIsland_aomap.uasset'
+[2016.10.25-04.45.52:531][688]LogSavePackage:Display: Finished SavePackage E:/Hevahelos/Hevahelos/Content/Environment/Terrain/FloatingIsland_aomap.uasset
+[2016.10.25-04.45.52:543][688]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Environment/Terrain/FloatingIsland_dispmap" FILE="E:/Hevahelos/Hevahelos/Content/Environment/Terrain/FloatingIsland_dispmap.uasset" SILENT=true
+[2016.10.25-04.45.52:611][688]LogSavePackage: Save=47.01ms
+[2016.10.25-04.45.52:611][688]LogSavePackage: Moving 'E:/Hevahelos/Hevahelos/Saved/FloatingIsland_dispmap88F8AB224E0F5B2A971EE3B575759541.tmp' to 'E:/Hevahelos/Hevahelos/Content/Environment/Terrain/FloatingIsland_dispmap.uasset'
+[2016.10.25-04.45.52:613][688]LogSavePackage:Display: Finished SavePackage E:/Hevahelos/Hevahelos/Content/Environment/Terrain/FloatingIsland_dispmap.uasset
+[2016.10.25-04.45.52:624][688]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Environment/Terrain/T_FloatingIsland_colormap" FILE="E:/Hevahelos/Hevahelos/Content/Environment/Terrain/T_FloatingIsland_colormap.uasset" SILENT=true
+[2016.10.25-04.45.52:899][688]LogSavePackage: Save=273.38ms
+[2016.10.25-04.45.52:900][688]LogSavePackage: Moving 'E:/Hevahelos/Hevahelos/Saved/T_FloatingIsland_colormapDC10553947904CA4F20C2B8CC1F776DA.tmp' to 'E:/Hevahelos/Hevahelos/Content/Environment/Terrain/T_FloatingIsland_colormap.uasset'
+[2016.10.25-04.45.52:902][688]LogSavePackage:Display: Finished SavePackage E:/Hevahelos/Hevahelos/Content/Environment/Terrain/T_FloatingIsland_colormap.uasset
+[2016.10.25-04.45.52:915][688]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Environment/Terrain/T_ExplodingStars" FILE="E:/Hevahelos/Hevahelos/Content/Environment/Terrain/T_ExplodingStars.uasset" SILENT=true
+[2016.10.25-04.45.53:190][688]LogSavePackage: Save=273.08ms
+[2016.10.25-04.45.53:191][688]LogSavePackage: Moving 'E:/Hevahelos/Hevahelos/Saved/T_ExplodingStars2BA44A054D0D328DF48DA6A2E8B6DD9F.tmp' to 'E:/Hevahelos/Hevahelos/Content/Environment/Terrain/T_ExplodingStars.uasset'
+[2016.10.25-04.45.53:193][688]LogSavePackage:Display: Finished SavePackage E:/Hevahelos/Hevahelos/Content/Environment/Terrain/T_ExplodingStars.uasset
+[2016.10.25-04.45.53:201][688]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Environment/Terrain/97153" FILE="E:/Hevahelos/Hevahelos/Content/Environment/Terrain/97153.uasset" SILENT=true
+[2016.10.25-04.45.53:220][688]LogSavePackage: Save=17.61ms
+[2016.10.25-04.45.53:220][688]LogSavePackage: Moving 'E:/Hevahelos/Hevahelos/Saved/971534A11412F424960C51191B99F25BDC246.tmp' to 'E:/Hevahelos/Hevahelos/Content/Environment/Terrain/97153.uasset'
+[2016.10.25-04.45.53:222][688]LogSavePackage:Display: Finished SavePackage E:/Hevahelos/Hevahelos/Content/Environment/Terrain/97153.uasset
+[2016.10.25-04.45.53:572][688]LogMaterial: Missing cached shader map for material Material_1, compiling. 
+[2016.10.25-04.45.53:635][688]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Environment/Shaders/MaterialFunctions/MF_Cave_Rock_01" FILE="E:/Hevahelos/Hevahelos/Content/Environment/Shaders/MaterialFunctions/MF_Cave_Rock_01.uasset" SILENT=true
+[2016.10.25-04.45.53:661][688]LogSavePackage: Save=20.06ms
+[2016.10.25-04.45.53:661][688]LogSavePackage: Moving 'E:/Hevahelos/Hevahelos/Saved/MF_Cave_Rock_019C579763423128EAB86A60BF173317C1.tmp' to 'E:/Hevahelos/Hevahelos/Content/Environment/Shaders/MaterialFunctions/MF_Cave_Rock_01.uasset'
+[2016.10.25-04.45.53:662][688]LogSavePackage:Display: Finished SavePackage E:/Hevahelos/Hevahelos/Content/Environment/Shaders/MaterialFunctions/MF_Cave_Rock_01.uasset
+[2016.10.25-04.45.53:666][688]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Environment/Shaders/Materials/Rock/M_Cave_Rock" FILE="E:/Hevahelos/Hevahelos/Content/Environment/Shaders/Materials/Rock/M_Cave_Rock.uasset" SILENT=true
+[2016.10.25-04.45.53:708][688]LogSavePackage: Save=38.64ms
+[2016.10.25-04.45.53:708][688]LogSavePackage: Moving 'E:/Hevahelos/Hevahelos/Saved/M_Cave_RockDB515C8A4B2FFEF6889F4F8CA1A8365B.tmp' to 'E:/Hevahelos/Hevahelos/Content/Environment/Shaders/Materials/Rock/M_Cave_Rock.uasset'
+[2016.10.25-04.45.53:709][688]LogSavePackage:Display: Finished SavePackage E:/Hevahelos/Hevahelos/Content/Environment/Shaders/Materials/Rock/M_Cave_Rock.uasset
+[2016.10.25-04.45.53:740][688]Cmd: OBJ SAVEPACKAGE PACKAGE="/Engine/EngineSky/M_Sky_Panning_Clouds2" FILE="../../../Engine/Content/EngineSky/M_Sky_Panning_Clouds2.uasset" SILENT=true
+[2016.10.25-04.45.53:782][688]LogSavePackage: Save=34.64ms
+[2016.10.25-04.45.53:782][688]LogSavePackage: Moving 'E:/Hevahelos/Hevahelos/Saved/M_Sky_Panning_Clouds2D5715B344530377F8ECB988F3C5495EA.tmp' to '../../../Engine/Content/EngineSky/M_Sky_Panning_Clouds2.uasset'
+[2016.10.25-04.45.53:785][688]LogSavePackage:Display: Finished SavePackage ../../../Engine/Content/EngineSky/M_Sky_Panning_Clouds2.uasset
+[2016.10.25-04.48.20:190][100]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.10.25-04.48.20:190][100]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.10.25-04.48.20:398][101]Cmd: QUIT_EDITOR
+[2016.10.25-04.48.20:451][101]LogExit: Preparing to exit.
+[2016.10.25-04.48.21:185][101]LogExit: Editor shut down
+[2016.10.25-04.48.21:185][101]LogExit: Transaction tracking system shut down
+[2016.10.25-04.48.21:325][101]LogObj: Freed 0b from 0 cluster array pools.
+[2016.10.25-04.48.21:325][101]LogExit: Object subsystem successfully closed.
+[2016.10.25-04.48.21:343][101]LogD3D11RHI: Shutdown
+[2016.10.25-04.48.21:343][101]LogD3D11RHI: CleanupD3DDevice
+[2016.10.25-04.48.21:457][101]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.10.25-04.48.21:475][101]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (236)
+[2016.10.25-04.48.21:475][101]LogModuleManager: Shutting down and abandoning module CrashTracker (235)
+[2016.10.25-04.48.21:475][101]LogModuleManager: Shutting down and abandoning module SceneOutliner (234)
+[2016.10.25-04.48.21:475][101]LogModuleManager: Shutting down and abandoning module WidgetCarousel (233)
+[2016.10.25-04.48.21:475][101]LogModuleManager: Shutting down and abandoning module AddContentDialog (232)
+[2016.10.25-04.48.21:475][101]LogDirectoryWatcher: A directory notification for 'C:/Program Files (x86)/Epic Games/4.13/FeaturePacks/' was aborted.
+[2016.10.25-04.48.21:476][101]LogModuleManager: Shutting down and abandoning module GameplayTags (231)
+[2016.10.25-04.48.21:476][101]LogModuleManager: Shutting down and abandoning module EditorWidgets (230)
+[2016.10.25-04.48.21:476][101]LogModuleManager: Shutting down and abandoning module CollectionManager (229)
+[2016.10.25-04.48.21:476][101]LogDirectoryWatcher: A directory notification for 'E:/Hevahelos/Hevahelos/Content/Collections/' was aborted.
+[2016.10.25-04.48.21:476][101]LogDirectoryWatcher: A directory notification for 'E:/Hevahelos/Hevahelos/Content/Developers/Computer/Collections/' was aborted.
+[2016.10.25-04.48.21:476][101]LogDirectoryWatcher: A directory notification for 'E:/Hevahelos/Hevahelos/Saved/Collections/' was aborted.
+[2016.10.25-04.48.21:476][101]LogModuleManager: Shutting down and abandoning module StatsViewer (228)
+[2016.10.25-04.48.21:476][101]LogModuleManager: Shutting down and abandoning module FoliageEdit (227)
+[2016.10.25-04.48.21:476][101]LogModuleManager: Shutting down and abandoning module LandscapeEditor (226)
+[2016.10.25-04.48.21:476][101]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (225)
+[2016.10.25-04.48.21:476][101]LogModuleManager: Shutting down and abandoning module ActorPickerMode (224)
+[2016.10.25-04.48.21:476][101]LogModuleManager: Shutting down and abandoning module GeometryMode (223)
+[2016.10.25-04.48.21:476][101]LogModuleManager: Shutting down and abandoning module TextureAlignMode (222)
+[2016.10.25-04.48.21:476][101]LogModuleManager: Shutting down and abandoning module BspMode (221)
+[2016.10.25-04.48.21:476][101]LogModuleManager: Shutting down and abandoning module HardwareSurvey (220)
+[2016.10.25-04.48.21:476][101]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (219)
+[2016.10.25-04.48.21:476][101]LogModuleManager: Shutting down and abandoning module SequenceRecorder (218)
+[2016.10.25-04.48.21:476][101]LogModuleManager: Shutting down and abandoning module AutomationWorker (217)
+[2016.10.25-04.48.21:476][101]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (216)
+[2016.10.25-04.48.21:476][101]LogModuleManager: Shutting down and abandoning module PlacementMode (215)
+[2016.10.25-04.48.21:477][101]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (214)
+[2016.10.25-04.48.21:477][101]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (213)
+[2016.10.25-04.48.21:477][101]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (212)
+[2016.10.25-04.48.21:477][101]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (211)
+[2016.10.25-04.48.21:477][101]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (210)
+[2016.10.25-04.48.21:477][101]LogModuleManager: Shutting down and abandoning module Media (209)
+[2016.10.25-04.48.21:477][101]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (208)
+[2016.10.25-04.48.21:477][101]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (207)
+[2016.10.25-04.48.21:477][101]LogModuleManager: Shutting down and abandoning module CharacterAI (206)
+[2016.10.25-04.48.21:477][101]LogModuleManager: Shutting down and abandoning module SmartSnapping (205)
+[2016.10.25-04.48.21:477][101]LogModuleManager: Shutting down and abandoning module SessionServices (204)
+[2016.10.25-04.48.21:477][101]LogModuleManager: Shutting down and abandoning module ViewportSnapping (203)
+[2016.10.25-04.48.21:477][101]LogModuleManager: Shutting down and abandoning module ViewportInteraction (202)
+[2016.10.25-04.48.21:477][101]LogModuleManager: Shutting down and abandoning module LogVisualizer (201)
+[2016.10.25-04.48.21:477][101]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (200)
+[2016.10.25-04.48.21:477][101]LogModuleManager: Shutting down and abandoning module IntroTutorials (199)
+[2016.10.25-04.48.21:477][101]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (198)
+[2016.10.25-04.48.21:477][101]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (197)
+[2016.10.25-04.48.21:477][101]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (196)
+[2016.10.25-04.48.21:477][101]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (195)
+[2016.10.25-04.48.21:934][101]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (194)
+[2016.10.25-04.48.21:934][101]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (193)
+[2016.10.25-04.48.21:934][101]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (192)
+[2016.10.25-04.48.21:934][101]LogModuleManager: Shutting down and abandoning module NiagaraEditor (191)
+[2016.10.25-04.48.21:934][101]LogModuleManager: Shutting down and abandoning module MergeActors (190)
+[2016.10.25-04.48.21:934][101]LogModuleManager: Shutting down and abandoning module SizeMap (189)
+[2016.10.25-04.48.21:934][101]LogModuleManager: Shutting down and abandoning module TreeMap (188)
+[2016.10.25-04.48.21:934][101]LogModuleManager: Shutting down and abandoning module ReferenceViewer (187)
+[2016.10.25-04.48.21:934][101]LogModuleManager: Shutting down and abandoning module LocalizationService (186)
+[2016.10.25-04.48.21:934][101]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (185)
+[2016.10.25-04.48.21:935][101]LogModuleManager: Shutting down and abandoning module HardwareTargeting (184)
+[2016.10.25-04.48.21:935][101]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (183)
+[2016.10.25-04.48.21:935][101]LogModuleManager: Shutting down and abandoning module UndoHistory (182)
+[2016.10.25-04.48.21:935][101]LogModuleManager: Shutting down and abandoning module UserFeedback (181)
+[2016.10.25-04.48.21:935][101]LogModuleManager: Shutting down and abandoning module XmlParser (180)
+[2016.10.25-04.48.21:935][101]LogModuleManager: Shutting down and abandoning module Blutility (179)
+[2016.10.25-04.48.21:935][101]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (178)
+[2016.10.25-04.48.21:935][101]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (177)
+[2016.10.25-04.48.21:935][101]LogModuleManager: Shutting down and abandoning module InputBindingEditor (176)
+[2016.10.25-04.48.21:935][101]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (175)
+[2016.10.25-04.48.21:935][101]LogModuleManager: Shutting down and abandoning module SettingsEditor (174)
+[2016.10.25-04.48.21:935][101]LogModuleManager: Shutting down and abandoning module ProjectLauncher (173)
+[2016.10.25-04.48.21:935][101]LogModuleManager: Shutting down and abandoning module SessionFrontend (172)
+[2016.10.25-04.48.21:935][101]LogModuleManager: Shutting down and abandoning module ProfilerClient (171)
+[2016.10.25-04.48.21:935][101]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (170)
+[2016.10.25-04.48.21:935][101]LogModuleManager: Shutting down and abandoning module DeviceManager (169)
+[2016.10.25-04.48.21:988][101]LogModuleManager: Shutting down and abandoning module AutomationController (168)
+[2016.10.25-04.48.21:988][101]LogModuleManager: Shutting down and abandoning module AutomationWindow (167)
+[2016.10.25-04.48.21:988][101]LogModuleManager: Shutting down and abandoning module Layers (166)
+[2016.10.25-04.48.21:988][101]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (165)
+[2016.10.25-04.48.21:988][101]LogModuleManager: Shutting down and abandoning module DetailCustomizations (164)
+[2016.10.25-04.48.21:988][101]LogModuleManager: Shutting down and abandoning module PackagesDialog (163)
+[2016.10.25-04.48.21:988][101]LogModuleManager: Shutting down and abandoning module AnimGraph (162)
+[2016.10.25-04.48.21:988][101]LogModuleManager: Shutting down and abandoning module Persona (161)
+[2016.10.25-04.48.21:988][101]LogModuleManager: Shutting down and abandoning module Kismet (160)
+[2016.10.25-04.48.21:989][101]LogModuleManager: Shutting down and abandoning module GraphEditor (159)
+[2016.10.25-04.48.21:989][101]LogModuleManager: Shutting down and abandoning module ClassViewer (158)
+[2016.10.25-04.48.21:989][101]LogModuleManager: Shutting down and abandoning module Toolbox (157)
+[2016.10.25-04.48.21:989][101]LogModuleManager: Shutting down and abandoning module ModuleUI (156)
+[2016.10.25-04.48.21:989][101]LogModuleManager: Shutting down and abandoning module MovieSceneTools (155)
+[2016.10.25-04.48.21:989][101]LogModuleManager: Shutting down and abandoning module OutputLog (154)
+[2016.10.25-04.48.21:989][101]LogModuleManager: Shutting down and abandoning module GammaUI (153)
+[2016.10.25-04.48.21:989][101]LogModuleManager: Shutting down and abandoning module Documentation (152)
+[2016.10.25-04.48.21:989][101]LogModuleManager: Shutting down and abandoning module Niagara (151)
+[2016.10.25-04.48.21:989][101]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (150)
+[2016.10.25-04.48.21:989][101]LogModuleManager: Shutting down and abandoning module AnalyticsET (149)
+[2016.10.25-04.48.21:989][101]LogModuleManager: Shutting down and abandoning module PortalServices (148)
+[2016.10.25-04.48.21:989][101]LogModuleManager: Shutting down and abandoning module PortalRpc (147)
+[2016.10.25-04.48.21:989][101]LogModuleManager: Shutting down and abandoning module MessagingRpc (146)
+[2016.10.25-04.48.21:989][101]LogModuleManager: Shutting down and abandoning module GameplayDebugger (145)
+[2016.10.25-04.48.21:989][101]LogModuleManager: Shutting down and abandoning module AITestSuite (144)
+[2016.10.25-04.48.21:989][101]LogModuleManager: Shutting down and abandoning module AIModule (143)
+[2016.10.25-04.48.21:989][101]LogModuleManager: Shutting down and abandoning module ProfilerService (142)
+[2016.10.25-04.48.22:231][101]LogModuleManager: Shutting down and abandoning module TaskGraph (141)
+[2016.10.25-04.48.22:231][101]LogModuleManager: Shutting down and abandoning module SubstanceEditor (140)
+[2016.10.25-04.48.22:231][101]LogModuleManager: Shutting down and abandoning module SlateRemote (139)
+[2016.10.25-04.48.22:231][101]LogModuleManager: Shutting down and abandoning module SteamVRController (138)
+[2016.10.25-04.48.22:231][101]LogModuleManager: Shutting down and abandoning module SteamVR (137)
+[2016.10.25-04.48.22:231][101]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (136)
+[2016.10.25-04.48.22:231][101]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (135)
+[2016.10.25-04.48.22:231][101]LogModuleManager: Shutting down and abandoning module OculusLibrary (134)
+[2016.10.25-04.48.22:231][101]LogModuleManager: Shutting down and abandoning module OculusInput (133)
+[2016.10.25-04.48.22:231][101]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (132)
+[2016.10.25-04.48.22:231][101]LogModuleManager: Shutting down and abandoning module CableComponent (131)
+[2016.10.25-04.48.22:231][101]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (130)
+[2016.10.25-04.48.22:231][101]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (128)
+[2016.10.25-04.48.22:232][101]LogModuleManager: Shutting down and abandoning module HTML5Networking (127)
+[2016.10.25-04.48.22:232][101]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (126)
+[2016.10.25-04.48.22:232][101]LogModuleManager: Shutting down and abandoning module GeometryCache (125)
+[2016.10.25-04.48.22:232][101]LogModuleManager: Shutting down and abandoning module AlembicLibrary (124)
+[2016.10.25-04.48.22:232][101]LogModuleManager: Shutting down and abandoning module AlembicImporter (123)
+[2016.10.25-04.48.22:232][101]LogModuleManager: Shutting down and abandoning module SuperSearch (122)
+[2016.10.25-04.48.22:232][101]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (121)
+[2016.10.25-04.48.22:232][101]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (120)
+[2016.10.25-04.48.22:232][101]LogModuleManager: Shutting down and abandoning module PluginBrowser (119)
+[2016.10.25-04.48.22:232][101]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (118)
+[2016.10.25-04.48.22:232][101]LogModuleManager: Shutting down and abandoning module EpicSurvey (117)
+[2016.10.25-04.48.22:232][101]LogModuleManager: Shutting down and abandoning module DesktopPlatform (116)
+[2016.10.25-04.48.22:232][101]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (115)
+[2016.10.25-04.48.22:232][101]LogModuleManager: Shutting down and abandoning module UObjectPlugin (114)
+[2016.10.25-04.48.22:232][101]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (113)
+[2016.10.25-04.48.22:232][101]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (112)
+[2016.10.25-04.48.22:232][101]LogModuleManager: Shutting down and abandoning module SourceControl (111)
+[2016.10.25-04.48.22:232][101]LogModuleManager: Shutting down and abandoning module GitSourceControl (110)
+[2016.10.25-04.48.22:232][101]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (109)
+[2016.10.25-04.48.22:232][101]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (108)
+[2016.10.25-04.48.22:232][101]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (107)
+[2016.10.25-04.48.22:232][101]LogModuleManager: Shutting down and abandoning module MeshPaint (106)
+[2016.10.25-04.48.22:232][101]LogModuleManager: Shutting down and abandoning module FbxAutomationBuilderModule (105)
+[2016.10.25-04.48.22:232][101]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (104)
+[2016.10.25-04.48.22:232][101]LogModuleManager: Shutting down and abandoning module HotReload (103)
+[2016.10.25-04.48.22:232][101]LogDirectoryWatcher: A directory notification for 'E:/Hevahelos/Hevahelos/Binaries/Win64' was aborted.
+[2016.10.25-04.48.22:233][101]LogModuleManager: Shutting down and abandoning module MainFrame (102)
+[2016.10.25-04.48.22:233][101]LogModuleManager: Shutting down and abandoning module LevelEditor (101)
+[2016.10.25-04.48.22:233][101]LogModuleManager: Shutting down and abandoning module ContentBrowser (100)
+[2016.10.25-04.48.22:234][101]LogModuleManager: Shutting down and abandoning module Paper2DEditor (99)
+[2016.10.25-04.48.22:234][101]LogModuleManager: Shutting down and abandoning module Hevahelos (98)
+[2016.10.25-04.48.22:234][101]LogModuleManager: Shutting down and abandoning module UdpMessaging (97)
+[2016.10.25-04.48.22:335][101]LogModuleManager: Shutting down and abandoning module TcpMessaging (96)
+[2016.10.25-04.48.22:436][101]LogModuleManager: Shutting down and abandoning module SubstanceCore (95)
+[2016.10.25-04.48.22:436][101]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (94)
+[2016.10.25-04.48.22:436][101]LogModuleManager: Shutting down and abandoning module Paper2D (93)
+[2016.10.25-04.48.22:436][101]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (92)
+[2016.10.25-04.48.22:436][101]LogModuleManager: Shutting down and abandoning module WmfMedia (91)
+[2016.10.25-04.48.22:436][101]LogModuleManager: Shutting down and abandoning module MediaAssets (90)
+[2016.10.25-04.48.22:436][101]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (89)
+[2016.10.25-04.48.22:436][101]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (88)
+[2016.10.25-04.48.22:436][101]LogModuleManager: Shutting down and abandoning module VREditor (87)
+[2016.10.25-04.48.22:436][101]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (86)
+[2016.10.25-04.48.22:436][101]LogModuleManager: Shutting down and abandoning module PropertyEditor (85)
+[2016.10.25-04.48.22:436][101]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (84)
+[2016.10.25-04.48.22:436][101]LogModuleManager: Shutting down and abandoning module FunctionalTesting (83)
+[2016.10.25-04.48.22:436][101]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (82)
+[2016.10.25-04.48.22:436][101]LogModuleManager: Shutting down and abandoning module Sequencer (81)
+[2016.10.25-04.48.22:436][101]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (80)
+[2016.10.25-04.48.22:436][101]LogModuleManager: Shutting down and abandoning module MessageLog (79)
+[2016.10.25-04.48.22:436][101]LogModuleManager: Shutting down and abandoning module AssetTools (78)
+[2016.10.25-04.48.22:436][101]LogModuleManager: Shutting down and abandoning module UMGEditor (77)
+[2016.10.25-04.48.22:436][101]LogModuleManager: Shutting down and abandoning module UMG (76)
+[2016.10.25-04.48.22:436][101]LogModuleManager: Shutting down and abandoning module SlateReflector (75)
+[2016.10.25-04.48.22:436][101]LogModuleManager: Shutting down and abandoning module Slate (74)
+[2016.10.25-04.48.22:436][101]LogModuleManager: Shutting down and abandoning module EditorStyle (73)
+[2016.10.25-04.48.22:439][101]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (72)
+[2016.10.25-04.48.22:439][101]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (71)
+[2016.10.25-04.48.22:439][101]LogModuleManager: Shutting down and abandoning module XAudio2 (70)
+[2016.10.25-04.48.22:439][101]LogModuleManager: Shutting down and abandoning module Networking (68)
+[2016.10.25-04.48.22:439][101]LogModuleManager: Shutting down and abandoning module Core (67)
+[2016.10.25-04.48.22:439][101]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (66)
+[2016.10.25-04.48.22:439][101]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2016.10.25-04.48.22:439][101]LogDirectoryWatcher: A directory notification for 'E:/Hevahelos/Hevahelos/Content/' was aborted.
+[2016.10.25-04.48.22:439][101]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2016.10.25-04.48.22:440][101]LogModuleManager: Shutting down and abandoning module AssetRegistry (65)
+[2016.10.25-04.48.22:649][101]LogModuleManager: Shutting down and abandoning module KismetCompiler (64)
+[2016.10.25-04.48.22:649][101]LogModuleManager: Shutting down and abandoning module PhysXFormats (63)
+[2016.10.25-04.48.22:649][101]LogModuleManager: Shutting down and abandoning module MeshUtilities (62)
+[2016.10.25-04.48.22:649][101]LogModuleManager: Shutting down and abandoning module DerivedDataCache (61)
+[2016.10.25-04.48.22:653][101]LogDerivedDataCache: Shutdown
+[2016.10.25-04.48.22:653][101]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (60)
+[2016.10.25-04.48.22:653][101]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (59)
+[2016.10.25-04.48.22:653][101]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (58)
+[2016.10.25-04.48.22:653][101]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (57)
+[2016.10.25-04.48.22:653][101]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (56)
+[2016.10.25-04.48.22:653][101]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (55)
+[2016.10.25-04.48.22:653][101]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (54)
+[2016.10.25-04.48.22:653][101]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (53)
+[2016.10.25-04.48.22:653][101]LogModuleManager: Shutting down and abandoning module ImageWrapper (52)
+[2016.10.25-04.48.22:653][101]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (51)
+[2016.10.25-04.48.22:653][101]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (50)
+[2016.10.25-04.48.22:653][101]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (49)
+[2016.10.25-04.48.22:653][101]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (48)
+[2016.10.25-04.48.22:653][101]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (47)
+[2016.10.25-04.48.22:653][101]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (46)
+[2016.10.25-04.48.22:653][101]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (45)
+[2016.10.25-04.48.22:653][101]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (44)
+[2016.10.25-04.48.22:653][101]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (43)
+[2016.10.25-04.48.22:653][101]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (42)
+[2016.10.25-04.48.22:653][101]LogModuleManager: Shutting down and abandoning module Messaging (41)
+[2016.10.25-04.48.22:653][101]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (40)
+[2016.10.25-04.48.22:653][101]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (39)
+[2016.10.25-04.48.22:653][101]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (38)
+[2016.10.25-04.48.22:653][101]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (37)
+[2016.10.25-04.48.22:653][101]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (36)
+[2016.10.25-04.48.22:653][101]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (35)
+[2016.10.25-04.48.22:653][101]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (34)
+[2016.10.25-04.48.22:653][101]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (33)
+[2016.10.25-04.48.22:653][101]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (32)
+[2016.10.25-04.48.22:653][101]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (31)
+[2016.10.25-04.48.22:653][101]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (30)
+[2016.10.25-04.48.22:653][101]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (29)
+[2016.10.25-04.48.22:653][101]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (28)
+[2016.10.25-04.48.22:654][101]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (27)
+[2016.10.25-04.48.22:654][101]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (26)
+[2016.10.25-04.48.22:654][101]LogModuleManager: Shutting down and abandoning module TargetPlatform (25)
+[2016.10.25-04.48.22:654][101]LogModuleManager: Shutting down and abandoning module InputCore (24)
+[2016.10.25-04.48.22:654][101]LogModuleManager: Shutting down and abandoning module Settings (23)
+[2016.10.25-04.48.22:654][101]LogModuleManager: Shutting down and abandoning module OculusRift (22)
+[2016.10.25-04.48.22:654][101]LogModuleManager: Shutting down and abandoning module GearVR (21)
+[2016.10.25-04.48.22:654][101]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (20)
+[2016.10.25-04.48.22:654][101]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (19)
+[2016.10.25-04.48.22:654][101]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (17)
+[2016.10.25-04.48.22:654][101]LogOnline:Display: Unloading online subsystem: NULL
+[2016.10.25-04.48.22:654][101]LogModuleManager: Shutting down and abandoning module HTTP (16)
+[2016.10.25-04.48.22:654][101]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2016.10.25-04.48.22:654][101]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BD1F0CC51-430E-4C9C-D095-72A657EEA14F%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.13.1-3142249%2B%2B%2BUE4%2BRelease-4.13&UserID=781cceb945285b3c2499e0b10b88101a%7C8a1e17665a0b4825aa55040582794925%7C8f2e1bf9-4e4f-47c6-95d2-2cae0d996d78&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2016.10.25-04.48.22:672][101]LogModuleManager: Shutting down and abandoning module XMPP (15)
+[2016.10.25-04.48.22:672][101]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.10.25-04.48.22:672][101]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.10.25-04.48.22:672][101]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.10.25-04.48.22:672][101]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.10.25-04.48.22:673][101]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.10.25-04.48.22:673][101]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.10.25-04.48.22:673][101]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.10.25-04.48.22:673][101]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.10.25-04.48.22:673][101]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.10.25-04.48.22:673][101]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.10.25-04.48.22:673][101]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.10.25-04.48.22:673][101]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.10.25-04.48.22:673][101]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.10.25-04.48.22:673][101]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.10.25-04.48.22:675][101]LogExit: Exiting.
+[2016.10.25-04.48.22:676][101]Log file closed, 10/24/16 21:48:22
